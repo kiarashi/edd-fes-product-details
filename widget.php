@@ -73,7 +73,7 @@ class EDD_FPD_Widget extends WP_Widget {
 		<table class="edd-fpd">
 			<?php foreach ( $meta as $label => $value ) : if ( '' == $value ) continue; ?>
 			<tr>
-				<th><?php echo $label; ?></th>
+				<td><?php echo $label; ?></td>
 				<td><?php echo $value; ?></td>
 			</tr>
 			<?php endforeach; ?>
